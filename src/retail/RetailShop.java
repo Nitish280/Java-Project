@@ -33,8 +33,12 @@ public class RetailShop {
 		store.addProduct("Television", "Available", 15000);
 		store.addProduct("Refrigerator", "Available", 12000);
 		store.addProduct("MicroOven", "Available", 8000);
+		
+		System.out.println("******************************");
 
 		System.out.println("Hello Visitor, you're visiting store Spencer.");// print
+		
+		System.out.println("******************************");
 																			// statement
 		// here we are calling display method
 		store.display();
