@@ -182,7 +182,7 @@ public class RetailStore {
 	public void display() {
 		// here we are initializing our customerList
 		for (Customer cust : customerList) {
-			System.out.println("Name: " + cust.getCustomerName() + " Numer: " + cust.getCustomerNo() + " ID: "
+			System.out.println("Name: " + cust.getCustomerName() + " Number: " + cust.getCustomerNo() + " ID: "
 					+ cust.getCustomerId());
 		} // print Statement
 			// here we are initializing our productList
